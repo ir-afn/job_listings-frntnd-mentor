@@ -132,10 +132,6 @@ h1, h2, h3, h4, h5, h6, p {
     border-radius: 50%;
 }
 
-.mob-deco-line {
-    display: none;
-}
-
 .listing-item__tags {
     max-width: 50%;
     display: flex;
@@ -235,6 +231,9 @@ h1, h2, h3, h4, h5, h6, p {
 
     .listing-item__tags {
         min-width: 100%;
+        border-top: 0.3px solid lightgrey;
+        margin-top: 1.5rem;
+        padding-top: 1rem;
     }
 
     .listing-item__tags__list {
